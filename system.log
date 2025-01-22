@@ -1,0 +1,729 @@
+2025-01-17 00:52:23,449 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:52:23,495 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 00:52:23,495 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 00:52:23,496 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:52:24,135 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:52:24,147 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:52:24,151 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:53:14,212 ERROR __main__ Thread-3 (process_request_thread) : Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+2025-01-17 00:53:14,213 INFO __main__ Thread-3 (process_request_thread) : GET /register½øÐÐ×¢²á¡£ 500
+2025-01-17 00:53:14,214 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 00:53:14] "[35m[1mGET /register½øÐÐ×¢²á¡£ HTTP/1.1[0m" 500 -
+2025-01-17 00:54:18,521 INFO __main__ Thread-6 (process_request_thread) : OPTIONS /register 200
+2025-01-17 00:54:18,521 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 00:54:18] "OPTIONS /register HTTP/1.1" 200 -
+2025-01-17 00:54:45,880 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:54:45,922 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:54:46,507 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:54:46,520 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:54:46,522 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:54:56,601 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:54:56,617 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 00:54:56,617 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 00:54:56,618 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:54:57,222 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:54:57,233 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:54:57,236 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:55:44,954 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:55:44,997 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:55:45,252 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:55:45,297 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:55:45,603 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:55:45,614 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:55:45,617 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:55:45,877 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:55:45,888 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:55:45,890 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:55:53,911 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:55:53,929 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 00:55:53,929 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 00:55:53,930 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:55:54,593 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:55:54,604 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:55:54,607 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:56:27,657 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:56:27,709 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:56:28,010 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:56:28,056 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:56:28,323 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:56:28,335 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:56:28,338 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:56:28,429 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:56:28,470 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:56:28,650 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:56:28,662 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:56:28,665 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:56:29,061 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:56:29,072 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:56:29,074 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:57:49,719 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:57:49,765 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:57:49,970 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:57:50,014 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:57:50,355 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:57:50,369 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:57:50,372 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:57:50,425 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 00:57:50,473 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:57:50,621 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:57:50,633 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:57:50,636 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:57:51,057 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:57:51,067 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:57:51,070 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:57:57,442 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:57:57,460 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 00:57:57,460 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 00:57:57,461 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:57:58,062 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:57:58,073 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:57:58,076 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 00:58:05,181 INFO __main__ Thread-3 (process_request_thread) : OPTIONS /register 200
+2025-01-17 00:58:05,181 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 00:58:05] "OPTIONS /register HTTP/1.1" 200 -
+2025-01-17 00:59:27,166 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:59:27,185 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 00:59:27,185 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 00:59:27,186 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 00:59:27,860 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 00:59:27,872 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 00:59:27,875 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:42:33,350 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:42:33,500 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 01:42:33,500 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 01:42:33,502 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:42:34,227 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:42:34,367 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:42:34,372 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:42:38,853 INFO __main__ Thread-3 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:42:38,853 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:42:38] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:42:56,225 INFO __main__ Thread-5 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:42:56,225 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:42:56] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:42:57,647 INFO __main__ Thread-7 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:42:57,647 INFO werkzeug Thread-7 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:42:57] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:43:17,396 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:43:37,666 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:43:45,230 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:44:08,211 ERROR __main__ Thread-10 (process_request_thread) : Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+2025-01-17 01:44:08,212 INFO __main__ Thread-10 (process_request_thread) : POST /api/login 500
+2025-01-17 01:44:08,212 INFO werkzeug Thread-10 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:44:08] "[35m[1mPOST /api/login HTTP/1.1[0m" 500 -
+2025-01-17 01:44:38,697 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:44:38,800 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 01:44:38,800 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 01:44:38,801 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:44:39,409 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:44:39,517 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:44:39,519 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:45:12,406 INFO flask_wtf.csrf Thread-11 (process_request_thread) : The CSRF token is missing.
+2025-01-17 01:45:12,408 ERROR __main__ Thread-11 (process_request_thread) : Unhandled exception: 400 Bad Request: The CSRF token is missing.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 261, in protect
+    validate_csrf(self._get_csrf_token())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 100, in validate_csrf
+    raise ValidationError("The CSRF token is missing.")
+wtforms.validators.ValidationError: The CSRF token is missing.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 229, in csrf_protect
+    self.protect()
+    ~~~~~~~~~~~~^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 264, in protect
+    self._error_response(e.args[0])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 307, in _error_response
+    raise CSRFError(reason)
+flask_wtf.csrf.CSRFError: 400 Bad Request: The CSRF token is missing.
+
+2025-01-17 01:45:12,408 INFO __main__ Thread-11 (process_request_thread) : POST /login 500
+2025-01-17 01:45:12,408 INFO werkzeug Thread-11 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:45:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-17 01:45:30,960 ERROR __main__ Thread-12 (process_request_thread) : Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+2025-01-17 01:45:30,960 INFO __main__ Thread-12 (process_request_thread) : GET / 500
+2025-01-17 01:45:30,961 INFO werkzeug Thread-12 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:45:30] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-17 01:45:32,429 INFO flask_wtf.csrf Thread-14 (process_request_thread) : The CSRF token is missing.
+2025-01-17 01:45:32,430 ERROR __main__ Thread-14 (process_request_thread) : Unhandled exception: 400 Bad Request: The CSRF token is missing.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 261, in protect
+    validate_csrf(self._get_csrf_token())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 100, in validate_csrf
+    raise ValidationError("The CSRF token is missing.")
+wtforms.validators.ValidationError: The CSRF token is missing.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 229, in csrf_protect
+    self.protect()
+    ~~~~~~~~~~~~^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 264, in protect
+    self._error_response(e.args[0])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 307, in _error_response
+    raise CSRFError(reason)
+flask_wtf.csrf.CSRFError: 400 Bad Request: The CSRF token is missing.
+
+2025-01-17 01:45:32,430 INFO __main__ Thread-14 (process_request_thread) : POST /login 500
+2025-01-17 01:45:32,430 INFO werkzeug Thread-14 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:45:32] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-17 01:46:00,838 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:46:00,838 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:46:00,932 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:46:00,937 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:46:01,611 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:46:01,612 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:46:01,719 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:46:01,721 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:46:01,721 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:46:01,724 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:46:12,511 INFO flask_wtf.csrf Thread-3 (process_request_thread) : The CSRF token is missing.
+2025-01-17 01:46:12,513 ERROR __main__ Thread-3 (process_request_thread) : Unhandled exception: 400 Bad Request: The CSRF token is missing.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 261, in protect
+    validate_csrf(self._get_csrf_token())
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 100, in validate_csrf
+    raise ValidationError("The CSRF token is missing.")
+wtforms.validators.ValidationError: The CSRF token is missing.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1482, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1974, in preprocess_request
+    rv = self.ensure_sync(before_func)()
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 229, in csrf_protect
+    self.protect()
+    ~~~~~~~~~~~~^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 264, in protect
+    self._error_response(e.args[0])
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask_wtf\csrf.py", line 307, in _error_response
+    raise CSRFError(reason)
+flask_wtf.csrf.CSRFError: 400 Bad Request: The CSRF token is missing.
+
+2025-01-17 01:46:12,513 INFO __main__ Thread-3 (process_request_thread) : POST /login 500
+2025-01-17 01:46:12,514 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:46:12] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+2025-01-17 01:46:45,590 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:46:45,590 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:46:45,645 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:46:45,646 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:46:46,327 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:46:46,327 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:46:46,430 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:46:46,431 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:46:46,433 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:46:46,433 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:46:56,452 WARNING __main__ Thread-3 (process_request_thread) : Login attempt for non-existent user: testuser
+2025-01-17 01:46:56,452 INFO __main__ Thread-3 (process_request_thread) : POST /login 401
+2025-01-17 01:46:56,452 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:46:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2025-01-17 01:47:07,352 ERROR __main__ Thread-5 (process_request_thread) : Registration error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO users (username, password, role, password_expiry, password_history) VALUES (?, ?, ?, ?, ?)]
+[parameters: [{'username': 'testuser', 'role': 'user', 'password': 'pbkdf2:sha256:600000$3fuiCpgnjrUQQXqI$65df15afdb076ea5f3e08b72b882902d7989d412dee2f63e2b5b408afb33f95a', 'password_expiry': 1739641627.1239536, 'password_history': None}]]
+2025-01-17 01:47:07,352 INFO __main__ Thread-5 (process_request_thread) : POST /register 500
+2025-01-17 01:47:07,352 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:47:07] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-01-17 01:47:24,038 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:02,369 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:02,369 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:02,424 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:48:02,426 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:48:03,109 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:03,109 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:03,217 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:03,218 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:03,219 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:48:03,220 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:48:25,732 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:25,732 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:25,793 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:48:25,794 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:48:26,464 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:26,464 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:26,567 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:26,567 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:26,569 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:48:26,570 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:48:39,524 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:39,525 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:48:39,580 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:48:40,225 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:40,226 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:48:40,331 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:40,332 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:48:40,333 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:48:40,335 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:49:19,873 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:49:19,873 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:49:19,932 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:49:19,935 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:49:20,600 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:49:20,600 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:49:20,705 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:49:20,705 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:49:20,707 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:49:20,708 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:49:56,053 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:49:56,054 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:49:56,112 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:49:56,945 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:49:56,945 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:49:57,059 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:49:57,060 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:49:57,062 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:49:57,062 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:51:46,613 INFO __main__ Thread-3 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:51:46,613 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:51:46] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:52:13,165 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:52:20,636 ERROR __main__ Thread-6 (process_request_thread) : Registration error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO users (username, password, role, password_expiry, password_history) VALUES (?, ?, ?, ?, ?)]
+[parameters: [{'role': 'admin', 'password': 'pbkdf2:sha256:600000$oYOe3ZTXcX8AJOT8$4fbb61214016ee85ead3fa95debbcdc66a98f015c9f6ce98a05fc533869ac31c', 'username': 'admin', 'password_expiry': 1739641940.3936157, 'password_history': None}]]
+2025-01-17 01:52:20,636 INFO __main__ Thread-6 (process_request_thread) : POST /register 500
+2025-01-17 01:52:20,636 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:52:20] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-01-17 01:52:25,819 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:52:25,939 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 01:52:25,939 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 01:52:25,940 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:52:26,654 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:52:26,790 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:52:26,794 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:52:45,830 INFO __main__ Thread-5 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:52:45,830 INFO werkzeug Thread-5 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:52:45] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:52:53,240 ERROR __main__ Thread-9 (process_request_thread) : Registration error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO users (username, password, role, password_expiry, password_history) VALUES (?, ?, ?, ?, ?)]
+[parameters: [{'role': 'admin', 'password': 'pbkdf2:sha256:600000$mlavOfRB7auiDGiF$fbd8bbeaf95251230494339c2d58a3f96e90ac48abfed742564ffe36d7576400', 'username': 'admin', 'password_expiry': 1739641973.0553727, 'password_history': None}]]
+2025-01-17 01:52:53,240 INFO __main__ Thread-9 (process_request_thread) : POST /register 500
+2025-01-17 01:52:53,240 INFO werkzeug Thread-9 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:52:53] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-01-17 01:53:13,785 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:53:13,833 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:53:13,879 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:53:13,879 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 01:53:13,944 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:53:14,511 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:14,623 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:14,626 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:53:14,633 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:14,634 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:14,752 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:14,753 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:14,756 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:53:14,756 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:53:24,188 ERROR __main__ Thread-3 (process_request_thread) : Registration error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO users (username, password, role, password_expiry, password_history) VALUES (?, ?, ?, ?, ?)]
+[parameters: [{'username': 'admin', 'role': 'admin', 'password': 'pbkdf2:sha256:600000$ekmJKSwhZubRErUw$6e574716d26b00bd543357175330122f3b876bd38954527ff675bc7c3f32f2aa', 'password_expiry': 1739642003.99975, 'password_history': None}]]
+2025-01-17 01:53:24,188 INFO __main__ Thread-3 (process_request_thread) : POST /register 500
+2025-01-17 01:53:24,188 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:53:24] "[35m[1mPOST /register HTTP/1.1[0m" 500 -
+2025-01-17 01:53:39,081 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:57,554 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:53:57,613 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:53:57,614 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:53:57,827 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:53:57,880 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:53:58,303 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:58,304 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:58,420 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:58,420 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:58,423 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:53:58,423 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:53:58,564 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:53:58,667 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:53:58,669 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:54:19,318 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:54:40,233 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:54:40,282 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:54:40,479 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:54:40,481 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:54:40,539 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:54:40,541 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:54:40,959 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:54:41,069 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:54:41,072 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:54:41,224 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:54:41,224 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:54:41,332 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:54:41,333 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:54:41,334 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:54:41,336 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:55:20,858 INFO __main__ Thread-3 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:55:20,858 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:55:20] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:56:07,434 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:56:07,511 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:56:07,523 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:56:07,523 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\check_db.py', reloading
+2025-01-17 01:56:07,581 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 01:56:08,180 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:56:08,261 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:56:08,262 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:56:08,290 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:56:08,293 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:56:08,370 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:56:08,370 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 01:56:08,373 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:56:08,373 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 01:57:11,619 INFO __main__ Thread-3 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:57:11,619 INFO werkzeug Thread-3 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:57:11] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:57:43,466 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:58:20,689 INFO __main__ Thread-6 (process_request_thread) : OPTIONS /login 200
+2025-01-17 01:58:20,689 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 01:58:20] "OPTIONS /login HTTP/1.1" 200 -
+2025-01-17 01:58:30,550 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:58:47,432 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 01:59:56,162 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:01:08,658 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\__init__.py', reloading
+2025-01-17 02:01:08,718 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 02:01:09,378 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:01:09,485 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 02:01:09,488 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 02:01:14,055 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:01:38,966 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:02:03,100 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:02:33,793 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:03:29,522 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:03:29,615 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 02:03:29,615 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 02:05:32,494 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\tests\\test_app.py', reloading
+2025-01-17 02:05:32,592 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 02:05:33,384 INFO apscheduler.scheduler MainThread : Scheduler started
+2025-01-17 02:05:33,502 WARNING werkzeug MainThread :  * Debugger is active!
+2025-01-17 02:05:33,505 INFO werkzeug MainThread :  * Debugger PIN: 758-252-147
+2025-01-17 02:06:08,476 INFO werkzeug MainThread :  * Detected change in 'D:\\gongcheng2\\app.py', reloading
+2025-01-17 02:06:08,524 INFO werkzeug MainThread :  * Restarting with stat
+2025-01-17 02:44:12,797 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 02:44:12,797 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 06:45:46,896 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-17 06:45:46,897 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2025-01-17 06:45:59,609 ERROR gongcheng2.app Thread-1 (process_request_thread) : Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+2025-01-17 06:45:59,609 ERROR gongcheng2.app Thread-1 (process_request_thread) : Exception on /api/v1/dashboard/charts [GET]
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2025-01-17 06:45:59,614 ERROR gongcheng2.app Thread-1 (process_request_thread) : Unhandled exception: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+
+2025-01-17 06:45:59,614 INFO werkzeug Thread-1 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 06:45:59] "[35m[1mGET /api/v1/dashboard/charts HTTP/1.1[0m" 500 -
+2025-01-17 06:45:59,649 ERROR werkzeug Thread-1 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\werkzeug\serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "D:\python\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1399, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2025-01-17 06:47:03,206 ERROR gongcheng2.app Thread-2 (process_request_thread) : Unhandled exception: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+2025-01-17 06:47:03,206 ERROR gongcheng2.app Thread-2 (process_request_thread) : Exception on / [GET]
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+2025-01-17 06:47:03,210 ERROR gongcheng2.app Thread-2 (process_request_thread) : Unhandled exception: 500 Internal Server Error: The server encountered an internal error and was unable to complete your request. Either the server is overloaded or there is an error in the application.
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+
+2025-01-17 06:47:03,210 INFO werkzeug Thread-2 (process_request_thread) : 127.0.0.1 - - [17/Jan/2025 06:47:03] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-01-17 06:47:03,216 ERROR werkzeug Thread-2 (process_request_thread) : Error on request:
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1458, in dispatch_request
+    self.raise_routing_exception(req)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1440, in raise_routing_exception
+    raise request.routing_exception  # type: ignore
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\ctx.py", line 353, in match_request
+    result = self.url_adapter.match(return_rule=True)  # type: ignore
+  File "D:\python\Lib\site-packages\werkzeug\routing\map.py", line 655, in match
+    raise NotFound() from None
+werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "D:\python\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1341, in handle_user_exception
+    return self.handle_http_exception(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 1281, in handle_http_exception
+    return self.ensure_sync(handler)(e)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\python\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\werkzeug\serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+  File "D:\python\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+  File "D:\python\Lib\site-packages\flask\app.py", line 1399, in handle_exception
+    server_error = self.ensure_sync(handler)(server_error)
+  File "D:\gongcheng2\app\__init__.py", line 73, in handle_exception
+    return jsonify(response), 500
+           ^^^^^^^
+NameError: name 'jsonify' is not defined
